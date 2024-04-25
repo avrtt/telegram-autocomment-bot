@@ -1,0 +1,6 @@
+files/
+venv/
+data.txt
+.env
+settings.ini
+bot_session.session
