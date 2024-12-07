@@ -4,3 +4,4 @@ data.txt
 .env
 settings.ini
 bot_session.session
+__pycache__/
