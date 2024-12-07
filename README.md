@@ -2,7 +2,7 @@ Here you can find a Python app that allows you to monitor for new posts to insta
 
 Developed with [Telethon](https://github.com/LonamiWebs/Telethon), [gpt4free](https://github.com/xtekky/gpt4free) and [Tenacity](https://github.com/jd/tenacity). No OpenAI account required.
 
-This is public part of my **freelance** project. Need services? Check out **[my website](https://avrtt.github.io/freelance)** 👈👀.   
+This is a public part of my **freelance** project. Need services? Check out **[my website](https://avrtt.github.io/freelance)** 👈👀.   
 
 ## Notice
 Absolutely no way you should use such software for spamming. Telegram moderation will ban your account after a few reports from other users. Use in your own channels for fun and to get familiar with the technology. 
