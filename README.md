@@ -71,7 +71,7 @@ telegram-autocomment-bot/
     proxy_ip =
     proxy_port =
     ```
-    \* Get your Telegram API id and hash [here](https://my.telegram.org/auth). You should log in using the phone number of the bot account, navigate to "API development tools" and create a new application. **Keep them secret!**
+    \* Get your Telegram API ID and hash [here](https://my.telegram.org/auth). You should log in using the phone number of the bot account, navigate to "API development tools" and create a new application. **Keep them secret!**
 
 5. Run:
     ```
