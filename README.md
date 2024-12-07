@@ -1,4 +1,4 @@
-Here you can find a Python app that allows you to monitor for new posts to instantly send a comment once published, using a Telegram bot functionality. You can specify the list of channels to monitor, as well as the behavior (prompt) to generate comments according to.  
+Here you can find a Python app that allows you to monitor for new posts to instantly send a comment once published, using Telegram bot-like functionality. You can specify the list of channels to monitor, as well as the behavior (prompt) to generate comments according to.  
 
 Developed with [Telethon](https://github.com/LonamiWebs/Telethon), [gpt4free](https://github.com/xtekky/gpt4free) and [Tenacity](https://github.com/jd/tenacity). No OpenAI account required.
 
@@ -77,6 +77,14 @@ telegram-autocomment-bot/
     ```
     python start.py
     ```
+
+6. Once prompted, provide Telethon with the same phone number you entered when created the API. You'll receive a code again.
+
+7. If your account has two-step verification enabled, Telethon will prompt you for a password.
+
+<br>
+
+Now, if you go into **Active sessions** in your bot account, you will see the new device you just registered. Have fun!
 
 ## Contrubition
 Feel free to open PRs and issues.
