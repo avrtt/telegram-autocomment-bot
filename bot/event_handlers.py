@@ -14,7 +14,9 @@ async def handle_new_posts(event, client, commented_messages, proxy_details):
             await client.send_message(entity=event.chat, message=comment_text, comment_to=message)
             print_green("Comment successfully posted.")
             commented_messages[channel_id].add(message.id)
+            
         except ChannelPrivateError as e:
             print_red(f"ChannelPrivateError: {e}")
+
         except Exception as e:
             print_red(f"Error commenting: {e}")
