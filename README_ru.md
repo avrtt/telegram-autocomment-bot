@@ -1,4 +1,4 @@
-**[🇺🇸 English](https://github.com/avrtt/telegram-autocomment-bot/blob/main/README.md)** &nbsp; • &nbsp; **🇷🇺 Русский**
+**[🇺🇸 English](https://github.com/avrtt/telegram-autocomment-bot/blob/main/README.md)** &nbsp; • &nbsp; **🇷🇺 Русский** (последнее обновление перевода: [e961f8c](https://github.com/avrtt/telegram-autocomment-bot/tree/e961f8cc8f0b70f7108a1f4da16f872e587973db))
 
 <br>
 
