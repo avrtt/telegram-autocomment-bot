@@ -1,3 +1,7 @@
+**🇺🇸 English** &nbsp; • &nbsp; **[🇷🇺 Русский](https://github.com/avrtt/telegram-autocomment-bot/blob/main/README_ru.md)**
+
+<br>
+
 Here you can find a Python app that allows you to monitor for new posts to instantly send a comment once published, using Telegram bot-like functionality. You can specify the list of channels to monitor, as well as the behavior (prompt) to generate comments according to.  
 
 Developed with [Telethon](https://github.com/LonamiWebs/Telethon), [gpt4free](https://github.com/xtekky/gpt4free) and [Tenacity](https://github.com/jd/tenacity). No OpenAI account required.
@@ -139,7 +143,6 @@ The full list of providers and their compatibility with models are listed in the
 - Replace `Bing` with `config['GPT']['verbose']` in `gpt_utils.py`
 - Add more tweaks
 - Add unit tests
-- Russian translation
 
 ## Contrubition
 Feel free to open PRs and issues.
