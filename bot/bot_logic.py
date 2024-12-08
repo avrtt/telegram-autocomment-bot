@@ -8,15 +8,15 @@ import asyncio
 async def start_bot(config):
     api_id = config['Telegram']['api_id']
     api_hash = config['Telegram']['api_hash']
-    device_model = config['Telegram']['device_model']
-    system_version = config['Telegram']['system_version']
+    device_model = config['Metadata']['device_model']
+    system_version = config['Metadata']['system_version']
     auto_join = config['Telegram']['auto_join'].lower() == "true"
     channel_usernames = [ch.strip() for ch in config['Telegram']['channel_usernames'].split(",")]
     proxy_details = {
-        "login": config['Telegram']['proxy_login'],
-        "password": config['Telegram']['proxy_password'],
-        "ip": config['Telegram']['proxy_ip'],
-        "port": config['Telegram']['proxy_port'],
+        "login": config['Proxy']['proxy_login'],
+        "password": config['Proxy']['proxy_password'],
+        "ip": config['Proxy']['proxy_ip'],
+        "port": config['Proxy']['proxy_port'],
     }
 
     client = TelegramClient(
